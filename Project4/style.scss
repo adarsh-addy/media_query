@@ -19,7 +19,7 @@ body {
   overflow-x: hidden;
 }
 
-.container {
+.container {//mobile-screen
   display: grid;
   place-items: center;
   min-height: 80%;
@@ -82,7 +82,7 @@ body {
   }
 }
 
-@media (min-width: 768px) and (max-width: 1199.98px) {
+@media (min-width: 768px) and (max-width: 1199.98px) {//laptop
   [class^="row-"] {
     max-height: 100%;
     line-height: 2;
